@@ -1,28 +1,22 @@
 package com.hbj.step7;
 
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class Step7_1152 {
 
 	public static void main(String[] args) {
-			Scanner scan = new Scanner(System.in);
-			String input = scan.nextLine();
-			String[] arr = input.split("\\s");
+			Scanner in = new Scanner(System.in);
+	 
+			String S = in.nextLine();
+			in.close();
+	 
+			// st 에 공백을 기준으로 나눈 토큰들을 st 에 저장한다
+			StringTokenizer st = new StringTokenizer(S," ");
 			
+			// countTokens() 는 토큰의 개수를 반환한다
+			System.out.println(st.countTokens());	
 			
-			if(input.substring(0, 1).equals(" ")) {
-				System.out.println(arr.length-1);
-				if(input.substring(input.length()-1, input.length()).equals(" ")) {
-					System.out.println(arr.length-1);
-				}
-			} else if(input.substring(input.length()-1, input.length()).equals(" ")){
-				System.out.println(arr.length);
-			} else {
-				System.out.println(arr.length);
-			}
-			
-			
-
 	}
 
 }
