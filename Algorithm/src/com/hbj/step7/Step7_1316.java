@@ -20,7 +20,7 @@ public class Step7_1316 {
 	}
  
 	public static boolean check() {
-		boolean[] check = new boolean[26];
+		boolean[] check = new boolean[26]; // 알파벳 26개 
 		int prev = 0;
 		String str = scan.next();
 		
