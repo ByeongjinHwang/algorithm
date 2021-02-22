@@ -9,7 +9,7 @@ public class Step7_10809 {
 		
 		String str = scan.next();
 		
-		int[] arr = new int[24]; // 알파벳 24개 저장하는 배
+		int[] arr = new int[26]; // 알파벳 26개 저장하는 배
 		
 		for(int i=0; i<arr.length; i++) {
 			arr[i] = -1; // 배열의 각 방에 -1값 넣음 
