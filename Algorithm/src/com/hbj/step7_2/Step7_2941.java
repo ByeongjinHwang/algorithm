@@ -20,8 +20,6 @@ public class Step7_2941 {
 		
 		System.out.println(replace8.length());
 		
-		
-		
 	}
 
 }
